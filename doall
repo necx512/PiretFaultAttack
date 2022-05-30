@@ -1,0 +1,7 @@
+#!/bin/bash
+cd foundmasterkey
+make
+cd -
+gcc aes.c testlib.c 
+./a.out
+./foundmasterkey/foundmasterkey
